@@ -3,9 +3,12 @@ from PIL import Image
 import base64
 from io import BytesIO
 
-st.write('''
-# Quentin Hsia, AI Robot Mania.
-''')
+st.markdown(
+    """
+    <h1 style='text-align: center;'><b>Quentin Hsia, AI Robot Mania</h1>
+    """,
+    unsafe_allow_html=True
+)
 
 image = Image.open('Quentin.png')
 buffered = BytesIO()
@@ -15,7 +18,7 @@ img_str = base64.b64encode(buffered.getvalue()).decode()
 st.markdown(f'<div style="display: flex; justify-content: center;"><img src="data:image/png;base64,{img_str}" width="300"/></div>', unsafe_allow_html=True)
 
 
-st.markdown('## Summary', unsafe_allow_html=True)
+st.markdown('## **Summary**', unsafe_allow_html=True)
 st.info('''
 - Highly skilled in multi-agent collaborative robotic systems and intelligent perception system development, with extensive experience in C++, Python, Linux, and ROS/ROS2, obtained through a Master's program at Tsinghua University and hands-on engineering projects.
 - A proven track record of academic and project-based achievements, including multiple ACM publications, awards in competitive tech and development programs, and successful leadership roles in university clubs.
@@ -45,7 +48,7 @@ st.markdown("""
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#bioinformatics-tools">Bioinformatics Tools</a>
+        <a class="nav-link" href="#hands-on projects">Hands-On Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#social-media">Social Media</a>
@@ -89,7 +92,7 @@ def txt4(a, b, c):
 
 #####################
 st.markdown('''
-## Education
+## **Education**
 ''')
 
 txt('**Master of Data Science and Information Technology**, *Tsinghua University*, China',
@@ -97,7 +100,7 @@ txt('**Master of Data Science and Information Technology**, *Tsinghua University
 st.markdown('''
 - GPA: `3.50`
 - Research thesis entitled `Informative Path Planning for Lost Person Search with Collaborative UAV Swarm`.
-- *ACM Publications*: `"VisionARy: Exploratory research on Contextual Language Learning using AR glasses with ChatGPT"`, in CHITaly2023, [Demo](https://1drv.ms/v/s!Ar8Wp1Ye8gDYihVNRYtmiwJP09gQ?e=tYlpZL) 
+- *ACM Publications*: `"VisionARy: Exploratory research on Contextual Language Learning using AR glasses with ChatGPT"`, in CHITaly2023 
 - *ACM Publications*: `"FireHunter: Adaptive and Non-Myopic UAV Swarm Collaboration for Proactive Fire Suppression with Incomplete Information"` in MobiCom '23 (under review)
 ''')
 
@@ -110,7 +113,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Work Experience
+## **Work Experience**
 ''')
 
 txt('**Machine Learning Intern**, *Desktop Computing Development Lab*, Lenovo',
@@ -139,6 +142,63 @@ st.markdown('''
 ''')
 
 
+#####################
+st.markdown('''
+## **Hands-On Projects**
+''')
+
+txt('**VisionARy: AR glasses with ChatGPT**, *AIGC + CV + HCI*',
+'2023.02- Now')
+st.markdown('''
+- Developed ROS-based control software for an autonomous vehicle, demonstrating expertise in robotics software and system control.
+- Implemented object/gesture recognition and speech recognition with multi-AI modules
+- Designed comprehensive system dataflow for backend and frontend operations, highlighting proficiency in software
+integration
+- [Demo](https://1drv.ms/v/s!Ar8Wp1Ye8gDYihVNRYtmiwJP09gQ?e=tYlpZL)
+''')
+
+image = Image.open('QwithCasey.JPG')
+buffered = BytesIO()
+image.save(buffered, format="JPEG")
+img_str = base64.b64encode(buffered.getvalue()).decode()
+st.markdown(f'<div style="display: flex; justify-content: center;"><img src="data:image/png;base64,{img_str}" width="400"/></div>', unsafe_allow_html=True)
+st.markdown('\n')
+
+
+txt('**Human Drone Interaction**, *Robotic System + HCI*',
+'2022.02- 2023.02')
+st.markdown('''
+- System Design: Incorporated visual perception, wireless communication, low-computational edge computing, and planning
+control
+- Perception: Utilized MediaPipe framework for face, gesture, speech recognition, and environmental perception
+- Communication and Computation: Implemented SSH for wireless communication and Raspberry Pi for resolving multi-
+video stream port occupancy issues, optimizing balance between transmission and computation
+- Planning and Control: Developed task-specific algorithms and applied PID control for trajectory fitting and task completion
+(reference [GitHub repository](https://github.com/handsomehsia/Human-Drone-Interaction.git))
+''')
+st.markdown(
+    """
+    <div style='display: flex; justify-content: center;'>
+        <img src='https://media.giphy.com/media/vd3AIxSkZ17tIwMN3a/giphy-downsized-large.gif' alt='Alt Text'/>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown('\n')
+
+txt('**AIdear Competition: AI Mango Disease Recognition System**, *CV + ML*','2020.10-2021.02')
+st.markdown('''
+- Programmed SQL databases and facilitated frontend-backend communication through database implementation
+- Expanded dataset using data augmentation techniques: rotation, horizontal/vertical flipping, Gaussian blur, and grayscale
+- Researched and selected ResNet as the deep learning model for the competition, tuning model parameters for improved
+''')
+
+txt('**Taishin Bank Commercial Big Data Competition**, *ML*', '2019.03-2019.08')
+st.markdown('''
+- Predicted next-year fund and credit product purchases for customers based on 230,000 consumption records
+- Implemented machine learning using R programming language
+- Chose XGBoost as the competition model, tuning model parameters for improved performance
+''')
 
 #####################
 # st.markdown('''
@@ -165,7 +225,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Skills
+## **Skills**
 ''')
 txt3('Programming', '`Python`, `R`, `C++`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
@@ -177,7 +237,7 @@ txt3('Robotic Development', '`ROS`, `ROS2`')
 
 #####################
 st.markdown('''
-## Social Media
+## **Social Media**
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/quentin-hsia-71484b1b9/')
 txt2('GitHub', 'https://github.com/handsomehsia')
