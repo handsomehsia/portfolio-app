@@ -116,7 +116,7 @@ st.markdown('''
 ## **Work Experience**
 ''')
 
-txt('**Machine Learning Intern**, *Desktop Computing Development Lab*, Lenovo',
+txt('**Machine Learning Intern**, *System Innovation Group, Desktop Computing Development Lab*, Lenovo',
 '2023.05- Now')
 st.markdown('''
 - Developed ROS-based control software for an autonomous vehicle, demonstrating expertise in robotics software and system control.
@@ -124,6 +124,24 @@ st.markdown('''
 - Designed comprehensive system dataflow for backend and frontend operations, highlighting proficiency in software
 integration
 ''')
+
+st.markdown(
+    """
+    <div style='display: flex; justify-content: center; align-items: center;'>
+        <div style='margin-right: 20px; text-align: center;'>
+            <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGJ4ZndrOWYzeDA5eTZha3o3NjNjcHczMGgzMWRjbnBmOWFvdGlzeiZlcD12MV9pbnRlcm5hbF9naWZfYjlfaWQmY3Q9Zw/KXhwarW6C683H0Xu9c/giphy.gif' alt='Alt Text'/>
+            <p>Automatic Navigation</p>
+        </div>
+        <div style='margin-left: 20px; text-align: center;'>
+            <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGZzMTYwZ2FmNHdweDkwa3ZndWpjc3N6Z2o5OW00MzNtNjRtMmdzdSZlcD12MV9pbnRlcm5hbF9naWZfYjlfaWQmY3Q9Zw/SHxRDpohpwk1YlzdQd/giphy.gif' alt='Alt Text'/>
+            <p>Gesture Control ROS-car in Gazebo</p>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 
 txt('**Software Engineer Intern**, *Supply Chain*, Lumentum (LITE: NASDQ)',
 '2021.02-2021.09')
