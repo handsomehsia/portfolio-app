@@ -168,10 +168,11 @@ st.markdown('''
 txt('**VisionARy: AR glasses with ChatGPT**, *AIGC + CV + HCI*',
 '2023.02- Now')
 st.markdown('''
-- Developed ROS-based control software for an autonomous vehicle, demonstrating expertise in robotics software and system control.
-- Implemented object/gesture recognition and speech recognition with multi-AI modules
-- Designed comprehensive system dataflow for backend and frontend operations, highlighting proficiency in software
-integration
+- Smart sensing: Trained YoloV7-tiny object recognition and Vosk offline speech-to-text models
+- AR Glasses: Utilized VUZIX Blade SDK for sensor integration and Android Studio for user interface development
+- Prompt engineering: Designed LLM input prompts based on CRISPE architecture to generate optimal text
+- Conducted user psychological research with 25 non-native English speakers, showing VisionARy's superiority in interface
+autonomy, task autonomy, task competence, and aesthetic indicators compared to traditional methods
 - [Demo](https://1drv.ms/v/s!Ar8Wp1Ye8gDYihVNRYtmiwJP09gQ?e=tYlpZL)
 ''')
 
