@@ -20,9 +20,9 @@ st.markdown(f'<div style="display: flex; justify-content: center;"><img src="dat
 
 st.markdown('## **Summary**', unsafe_allow_html=True)
 st.info('''
-- Highly skilled in multi-agent collaborative robotic systems and intelligent perception system development, with extensive experience in C++, Python, Linux, and ROS/ROS2, obtained through a Master's program at Tsinghua University and hands-on engineering projects.
-- A proven track record of academic and project-based achievements, including multiple ACM publications, awards in competitive tech and development programs, and successful leadership roles in university clubs.
-- Possessing broad professional experience, from machine learning and software engineering internships to involvement in complex system innovations and supply chain automation, showcasing robust technical skills, software development, automation, and system integration capabilities.
+- Highly skilled in **intelligent perception system development** and **multi-agent collaborative robotic systems**, with extensive experience in C++, Python, Linux, and ROS/ROS2, obtained through a Master's program at Tsinghua University and hands-on engineering projects.
+- A proven track record of academic and project-based achievements, including **multiple ACM publications**, awards in competitive tech and development programs, and **successful leadership roles** in university clubs.
+- Possessing broad professional experience, from **machine learning** and **software engineering** internships to involvement in complex system innovations and supply chain automation, showcasing robust technical skills, software development, automation, and **system integration capabilities**.
 ''')
 
 #####################
@@ -100,7 +100,7 @@ txt('**Master of Data Science and Information Technology**, *Tsinghua University
 st.markdown('''
 - GPA: `3.50`
 - Research thesis entitled `Informative Path Planning for Lost Person Search with Collaborative UAV Swarm`.
-- *ACM Publications*: `"VisionARy: Exploratory research on Contextual Language Learning using AR glasses with ChatGPT"`, in CHITaly2023 
+- *ACM Publications*: `"VisionARy: Exploratory research on Contextual Language Learning using AR glasses with ChatGPT"`, In Proceedings of the 15th Biannual Conference of the Italian SIGCHI Chapter (CHItaly '23). https://doi.org/10.1145/3605390.3605400
 - *ACM Publications*: `"FireHunter: Adaptive and Non-Myopic UAV Swarm Collaboration for Proactive Fire Suppression with Incomplete Information"` in MobiCom '23 (under review)
 ''')
 
@@ -120,9 +120,9 @@ txt('**Machine Learning Intern**, *System Innovation Group, Desktop Computing De
 '2023.05- Now')
 st.markdown('''
 - Developed ROS-based control software for an autonomous vehicle, demonstrating expertise in robotics software and system control.
+- Engineered an emotional intelligence device and focused on implementing LLM-based agents for emotion interaction
 - Implemented object/gesture recognition and speech recognition with multi-AI modules
-- Designed comprehensive system dataflow for backend and frontend operations, highlighting proficiency in software
-integration
+- Designed comprehensive system dataflow for backend and frontend operations, highlighting proficiency in software integration
 ''')
 
 st.markdown(
@@ -171,8 +171,7 @@ st.markdown('''
 - Smart sensing: Trained YoloV7-tiny object recognition and Vosk offline speech-to-text models
 - AR Glasses: Utilized VUZIX Blade SDK for sensor integration and Android Studio for user interface development
 - Prompt engineering: Designed LLM input prompts based on CRISPE architecture to generate optimal text
-- Conducted user psychological research with 25 non-native English speakers, showing VisionARy's superiority in interface
-autonomy, task autonomy, task competence, and aesthetic indicators compared to traditional methods
+- Innovation in Pedagogy: Created a novel Human-Computer Interaction system through the VisionARy, which was recognized and accepted by ACM CHItaly 2023: Proceedings of the 15th Biannual Conference of the Italian SIGCHI Chapter
 - [Demo](https://1drv.ms/v/s!Ar8Wp1Ye8gDYihVNRYtmiwJP09gQ?e=tYlpZL)
 ''')
 
@@ -214,9 +213,9 @@ st.markdown('''
 
 txt('**Taishin Bank Commercial Big Data Competition**, *ML*', '2019.03-2019.08')
 st.markdown('''
-- Predicted next-year fund and credit product purchases for customers based on 230,000 consumption records
-- Implemented machine learning using R programming language
-- Chose XGBoost as the competition model, tuning model parameters for improved performance
+- Engineered models to forecast next-year fund and credit purchases using 230,000 consumption records.
+- Fine-tuned the XGBoost model, optimizing model parameters to achieve improved predictive accuracy and performance
+- Utilized advanced machine learning algorithms through R programming language, demonstrating proficiency in statistical analysis and data-driven decision making.
 ''')
 
 #####################
@@ -246,7 +245,7 @@ st.markdown('''
 st.markdown('''
 ## **Skills**
 ''')
-txt3('Programming', '`Python`, `R`, `C++`')
+txt3('Programming', '`Python`, `C++`, `R`, `Matlab`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`')
 txt3('Deep Learning', '`PyTorch`, `TensorFlow`')
