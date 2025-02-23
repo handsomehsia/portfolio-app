@@ -48,7 +48,7 @@ st.markdown("""
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#hands-on projects">Hands-On Projects</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#social-media">Social Media</a>
@@ -115,9 +115,22 @@ st.markdown('''
 st.markdown('''
 ## **Work Experience**
 ''')
+txt('**Machine Learning Engineer**, *Digital payment department*, Ant Group',
+'2024.07- Now')
+st.markdown('''
+
+''')
+
+txt('**Machine Learning Intern**,*New Technology & Innovation*, HARMAN International (subsidiary of SAMSUNG)',
+'2023.11- 2024.05')
+st.markdown('''
+-Pioneered an innovative audio-to-motion framework employing generative adversarial network (GAN) for synchronous motion synthesis from musical inputs.
+-Deployed an advanced real-time visualization system that captures audio features through a moving window technique, extracting high-definition Mel spectrogram data to feed into the model.
+-Led a pioneering cross-modal generative system blending music with lighting for immersive live experiences. Coordinated with BU teams to showcase the system through impactful demonstrations, POCs, and POT events.
+''')
 
 txt('**Machine Learning Intern**, *System Innovation Group, Desktop Computing Development Lab*, Lenovo',
-'2023.05- Now')
+'2023.05- 2023.10')
 st.markdown('''
 - Developed ROS-based control software for an autonomous vehicle, demonstrating expertise in robotics software and system control.
 - Engineered an emotional intelligence device and focused on implementing LLM-based agents for emotion interaction
@@ -162,7 +175,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## **Hands-On Projects**
+## **Projects**
 ''')
 
 txt('**VisionARy: AR glasses with ChatGPT**, *AIGC + CV + HCI*',
